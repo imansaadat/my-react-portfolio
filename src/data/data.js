@@ -74,3 +74,121 @@ export const featuresData = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque solutahic consequuntur eum repellendus ad",
   },
 ];
+
+// Projects Data
+export const projectsData = [
+  {
+    id: 1,
+    img: cars,
+    title: "SOCIAL MEDIA CLONE",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+  },
+  {
+    id: 2,
+    img: coffee,
+    title: "E-COMMERCE WEBSITE",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+  },
+  {
+    id: 3,
+    img: construction,
+    title: "CHATTING APP",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+  },
+  {
+    id: 4,
+    img: food,
+    title: "SOCIAL MEDIA CLONE",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+  },
+  {
+    id: 5,
+    img: bootcamp,
+    title: "SOCIAL MEDIA CLONE",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+  },
+  {
+    id: 6,
+    img: delivery,
+    title: "SOCIAL MEDIA CLONE",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+  },
+  {
+    id: 7,
+    img: weekaway,
+    title: "SOCIAL MEDIA CLONE",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+  },
+  {
+    id: 8,
+    img: dentist,
+    title: "SOCIAL MEDIA CLONE",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+  },
+  {
+    id: 9,
+    img: clipboard,
+    title: "SOCIAL MEDIA CLONE",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+  },
+  {
+    id: 10,
+    img: epoxy,
+    title: "SOCIAL MEDIA CLONE",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+  },
+  {
+    id: 11,
+    img: secured,
+    title: "SOCIAL MEDIA CLONE",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+  },
+  {
+    id: 12,
+    img: bookmark,
+    title: "SOCIAL MEDIA CLONE",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+  },
+  {
+    id: 13,
+    img: manageLanding,
+    title: "SOCIAL MEDIA CLONE",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+  },
+  {
+    id: 14,
+    img: defi,
+    title: "SOCIAL MEDIA CLONE",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+  },
+  {
+    id: 15,
+    img: easybank,
+    title: "SOCIAL MEDIA CLONE",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+  },
+  {
+    id: 16,
+    img: portfolio,
+    title: "SOCIAL MEDIA CLONE",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+  },
+  {
+    id: 17,
+    img: landingSitechin,
+    title: "SOCIAL MEDIA CLONE",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+  },
+  {
+    id: 18,
+    img: keyboarda,
+    title: "SOCIAL MEDIA CLONE",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+  },
+  {
+    id: 19,
+    img: sitechin,
+    title: "SOCIAL MEDIA CLONE",
+    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
+  },
+];
