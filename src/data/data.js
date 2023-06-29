@@ -217,3 +217,27 @@ export const educationData = [
     desc: "Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education.",
   },
 ];
+
+// Skills
+export const designSkillsData = [
+  {
+    title: "PHOTOSHOT",
+    percent: "80%",
+  },
+  {
+    title: "FIGMA",
+    percent: "95%",
+  },
+  {
+    title: "ADOBE XD",
+    percent: "70%",
+  },
+  {
+    title: "ADOBE ILLUSTRATOR",
+    percent: "80%",
+  },
+  {
+    title: "DESIGN",
+    percent: "90%",
+  },
+];
