@@ -192,3 +192,28 @@ export const projectsData = [
     desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit.Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!",
   },
 ];
+
+// Education data
+export const educationData = [
+  {
+    id: 1,
+    title: "BSc in Computer Science",
+    subTitle: "University of DVI (2006 - 2010)",
+    result: "3.90/4",
+    desc: "Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education.",
+  },
+  {
+    id: 2,
+    title: "AS - Science & Information",
+    subTitle: "SuperKing College (2001 - 2005)",
+    result: "4.75/5",
+    desc: "Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education.",
+  },
+  {
+    id: 3,
+    title: "Secondary School Education",
+    subTitle: "Kingstar Secondary School (1998 - 2000)",
+    result: "5.00/5",
+    desc: "Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education.",
+  },
+];
