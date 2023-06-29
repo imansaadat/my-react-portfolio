@@ -7,6 +7,8 @@ function App() {
       <Navbar />
       <main className="max-w-screen-xl mx-auto px-3 md:px-8">
         <Intro />
+        <Features />
+        <Projects />
       </main>
     </div>
   );
