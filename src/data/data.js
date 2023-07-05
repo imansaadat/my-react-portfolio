@@ -241,3 +241,50 @@ export const designSkillsData = [
     percent: "90%",
   },
 ];
+
+export const developmentSkillsData = [
+  {
+    title: "html 5",
+    percent: "100%",
+  },
+  {
+    title: "css3",
+    percent: "90%",
+  },
+  {
+    title: "bootstrap",
+    percent: "95%",
+  },
+  {
+    title: "tailwind",
+    percent: "100%",
+  },
+  {
+    title: "javascript",
+    percent: "80%",
+  },
+  {
+    title: "jquery",
+    percent: "75%",
+  },
+  {
+    title: "typescript",
+    percent: "80%",
+  },
+  {
+    title: "react",
+    percent: "85%",
+  },
+  {
+    title: "next js",
+    percent: "85%",
+  },
+  {
+    title: "git",
+    percent: "85%",
+  },
+  {
+    title: "github",
+    percent: "90%",
+  },
+];
