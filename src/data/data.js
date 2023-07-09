@@ -288,3 +288,37 @@ export const developmentSkillsData = [
     percent: "90%",
   },
 ];
+
+// Testimonial
+export const testimonialData = [
+  {
+    id: 1,
+    name: "amir saadat",
+    companyName: "Bound - Trolola",
+    jobTitle: " Operation Officer",
+    img: testimonialOne,
+    title: "Travel Mobile App Design.",
+    date: "via Upwork - Mar 4, 2015 - Aug 30, 2021 test",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorum, eos natus ipsum numquam veniam officia necessitatibus ratione quos debitis exercitationem repudiandae facilis id neque nihil accusantium perspiciatis repellat? Iste.",
+  },
+  {
+    id: 2,
+    name: "iman saadat",
+    companyName: "Bound - Trolola",
+    jobTitle: " Operation Officer",
+    img: testimonialTwo,
+    title: "Travel Mobile App Design.",
+    date: "via Upwork - Mar 4, 2015 - Aug 30, 2021 test",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorum, eos natus ipsum numquam veniam officia necessitatibus ratione quos debitis exercitationem repudiandae facilis id neque nihil accusantium perspiciatis repellat? Iste.",
+  },
+  {
+    id: 3,
+    name: "samyar saadat",
+    companyName: "Bound - Trolola",
+    jobTitle: " Operation Officer",
+    img: testimonialTwo,
+    title: "Travel Mobile App Design.",
+    date: "via Upwork - Mar 4, 2015 - Aug 30, 2021 test",
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorum, eos natus ipsum numquam veniam officia necessitatibus ratione quos debitis exercitationem repudiandae facilis id neque nihil accusantium perspiciatis repellat? Iste.",
+  },
+];
