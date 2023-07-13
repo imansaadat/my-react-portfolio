@@ -322,3 +322,22 @@ export const testimonialData = [
     desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dolorum, eos natus ipsum numquam veniam officia necessitatibus ratione quos debitis exercitationem repudiandae facilis id neque nihil accusantium perspiciatis repellat? Iste.",
   },
 ];
+
+// FooterLinks
+export const FooterLinksData = [
+  {
+    id: 1,
+    title: "QUICK LINK",
+    links: ["about", "Portfolio", "Services", "Blog", "Contact"],
+  },
+  {
+    id: 2,
+    title: "RESOURCES",
+    links: ["Authentication", " System Status", "Terms of Service", " Pricing", " Over Right"],
+  },
+  {
+    id: 3,
+    title: "DEVELOPERS",
+    links: ["Documentation", "Authentication", "API Reference", "Support", " Open Source"],
+  },
+];
