@@ -194,27 +194,52 @@ export const projectsData = [
 ];
 
 // Education data
-export const educationData = [
+export const jobExperienceData = [
   {
     id: 1,
-    title: "BSc in Computer Science",
-    subTitle: "University of DVI (2006 - 2010)",
-    result: "3.90/4",
-    desc: "Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education.",
+    title: "Front-end Developer ",
+    subTitle: "Keyboarda group (2021 - Present)",
+    location: "Tehran",
+    desc: [
+      "Performing front-end projects",
+      "Developing websites and web pages",
+      "Training and supervising interns' work",
+    ],
   },
   {
     id: 2,
-    title: "AS - Science & Information",
-    subTitle: "SuperKing College (2001 - 2005)",
-    result: "4.75/5",
-    desc: "Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education.",
+    title: "Front-end Developer ",
+    subTitle: "Sitechin Company (2019 - 2021)",
+    location: "Tehran",
+    desc: [
+      "Building an advanced website builder that can create",
+      "Personal, corporate, or e-commerce websites for people in various job fields quickly",
+      "Performing front-end projects with modern technologies",
+      "Collaboration with UX/UI Team",
+    ],
   },
   {
     id: 3,
-    title: "Secondary School Education",
-    subTitle: "Kingstar Secondary School (1998 - 2000)",
-    result: "5.00/5",
-    desc: "Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education.",
+    title: "Teacher and Freelancer",
+    subTitle: "Hedayat Elementary School (2018 - 2019)",
+    location: "Tehran",
+    desc: [
+      "Work as a freelancer (Front-end Developer)",
+      "Part-time web programming teacher at an elementary school",
+    ],
+  },
+];
+
+// Experience Data
+export const educationData = [
+  {
+    id: 1,
+    title: "Bachelor of Biotechnology",
+    subTitle: "Islamic Azad University (2012 - 2016)",
+    location: "Tehran",
+    desc: [
+      "I have obtained a bachelor's degree in Biotechnology from the Islamic Azad University.",
+    ],
   },
 ];
 
