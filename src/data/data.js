@@ -243,6 +243,71 @@ export const educationData = [
   },
 ];
 
+// trainer Experience Data
+export const trainerExperienceData = [
+  {
+    id: 1,
+    title: "Teacher",
+    subTitle: "Hedayat Elementary School (2018 - 2019)",
+    location: "Tehran",
+    desc: ["Part-time web programming teacher at an elementary school"],
+  },
+];
+// Certificate Data
+export const courseraData = [
+  {
+    id: 1,
+    title: "HTML, CSS, and Javascript for Web Developers",
+    subTitle: "Coursera (Oct 2021)",
+    location: "Johns Hopkins University",
+    link: "https://www.coursera.org/account/accomplishments/certificate/6UXHKE37J65Q",
+    desc: [
+      "HTML, CSS, and responsive web design mastery.",
+      "Proficient in Javascript for dynamic web development.",
+      "Integrated Ajax for enhanced functionality and user experience.",
+    ],
+  },
+  {
+    id: 2,
+    title: "Interactivity with JavaScript",
+    subTitle: "Coursera (Dec 2021)",
+    location: "University of Michigan",
+    link: "https://www.coursera.org/account/accomplishments/certificate/E48TPK2AAVPE",
+    desc: [
+      "JavaScript basics for website interactivity.",
+      "Working with variables, functions, and the DOM.",
+      "Reacting to events and modifying webpage content.",
+      "Creating an interactive HTML5 form.",
+    ],
+  },
+  {
+    id: 3,
+    title: "Learn to Program",
+    subTitle: "Coursera (Nov 2022)",
+    location: "University of Toronto",
+    link: "https://www.coursera.org/account/accomplishments/certificate/F4CRTREBZYWP",
+    desc: [
+      "Introduction to programming and its importance.",
+      "Gain the ability to write practical programs that have real-world applications.",
+      "Fun and practical program development.",
+    ],
+  },
+  {
+    id: 4,
+    title: "Advanced Styling with Responsive Design",
+    subTitle: "Coursera (Apr 2022)",
+    location: "University of Michigan",
+    link: "https://www.coursera.org/account/accomplishments/certificate/6J9JJGVM8ZKC",
+    desc: [
+      "The importance of responsive design for websites.",
+      "Creating sites that perform well across different platforms.",
+      "Mobile-first paradigm and wireframes in the design process.",
+      "Implementing fluid design and media queries",
+      "Utilizing design frameworks like Bootstrap",
+    ],
+  },
+];
+
 // Skills
 export const designSkillsData = [
   {
