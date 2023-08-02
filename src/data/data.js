@@ -308,6 +308,62 @@ export const courseraData = [
   },
 ];
 
+export const companiesData = [
+  {
+    id: 1,
+    title: "Advanced React",
+    subTitle: "Coursera (Mar 2023)",
+    location: "Meta",
+    link: "https://www.coursera.org/account/accomplishments/certificate/VYQWEMAGJYNH",
+    desc: [
+      "Efficient rendering and state management in React.",
+      "Fetching data from remote servers.",
+      "Testing React components.",
+      "Building a portfolio with React.",
+    ],
+  },
+  {
+    id: 2,
+    title: "Programming with JavaScript",
+    subTitle: "Coursera (Mar 2023)",
+    location: "Meta",
+    link: "https://www.coursera.org/account/accomplishments/certificate/C5D2P69U2TTG",
+    desc: [
+      "Basics of web development with JavaScript.",
+      "Working with functions, objects, arrays, and variables.",
+      "Manipulating the HTML DOM using JavaScript.",
+      "Exploring interactive possibilities with JavaScript.",
+    ],
+  },
+  {
+    id: 3,
+    title: "HTML and CSS in depth",
+    subTitle: "Coursera (Nov 2022)",
+    location: "Meta",
+    link: "https://www.coursera.org/account/accomplishments/certificate/M3YQ745YMCRV",
+    desc: [
+      "Building web pages with HTML and structured data.",
+      "Customizing styling with CSS.",
+      "Creating responsive layouts using Bootstrap.",
+      "Debugging and resolving front-end errors.",
+    ],
+  },
+  {
+    id: 4,
+    title: "Version Control",
+    subTitle: "Coursera (Jun 2023)",
+    location: "Meta",
+    link: "https://www.coursera.org/account/accomplishments/certificate/M3YQ745YMCRV",
+    desc: [
+      "Collaborate globally using version control.",
+      "Optimize software development workflow.",
+      "Automate tasks for productivity.",
+      "Utilize Git for team file management and code revisions.",
+    ],
+  },
+];
+
+
 // Skills
 export const designSkillsData = [
   {
@@ -429,5 +485,39 @@ export const FooterLinksData = [
     id: 3,
     title: "DEVELOPERS",
     links: ["Documentation", "Authentication", "API Reference", "Support", " Open Source"],
+  },
+];
+
+// videoList
+export const videoListData = [
+  {
+    title: "Teaching web programming (CSS Animation 1)",
+    subTitle: "Hedayat Elementary School (2018 - 2019)",
+    url: video1,
+    thumbnail: thumbnailOne,
+  },
+  {
+    title: "JavaScript (Function Expressions)",
+    subTitle: "My Private Programming Class (2023)",
+    url: video2,
+    thumbnail: thumbnailFive,
+  },
+  {
+    title: "Teaching web programming (CSS Animation2)",
+    subTitle: "Hedayat Elementary School (2018 - 2019)",
+    url: video3,
+    thumbnail: thumbnailTwo,
+  },
+  {
+    title: "Teaching web programming (CSS Animation 3)",
+    subTitle: "Hedayat Elementary School (2018 - 2019)",
+    url: video4,
+    thumbnail: thumbnailThree,
+  },
+  {
+    title: "Front-end web development (HTML Headings)",
+    subTitle: "Hedayat Elementary School (2018 - 2019)",
+    url: video5,
+    thumbnail: thumbnailFour,
   },
 ];
