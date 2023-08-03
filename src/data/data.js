@@ -1,6 +1,40 @@
 import { AiFillAppstore } from "react-icons/ai";
 import { FaMobile, FaGlobe, FaBars } from "react-icons/fa";
 import { SiProgress, SiAntdesign } from "react-icons/si";
+// video list
+import video1 from "../../src/assets/videos/one.mp4";
+import video2 from "../../src/assets/videos/five.mp4";
+import video3 from "../../src/assets/videos/two.mp4";
+import video4 from "../../src/assets/videos/three.mp4";
+import video5 from "../../src/assets/videos/four.mp4";
+import {
+  keyboarda,
+  epoxy,
+  sitechin,
+  landingSitechin,
+  defi,
+  manageLanding,
+  bookmark,
+  easybank,
+  secured,
+  coffee,
+  construction,
+  cars,
+  food,
+  bootcamp,
+  delivery,
+  weekaway,
+  clipboard,
+  dentist,
+  portfolio,
+  user,
+  thumbnailOne,
+  thumbnailTwo,
+  thumbnailThree,
+  thumbnailFour,
+  thumbnailFive
+} from "../assets";
+
 // NavLink Data
 export const navLinksData = [
     {
@@ -362,7 +396,6 @@ export const companiesData = [
     ],
   },
 ];
-
 
 // Skills
 export const designSkillsData = [
