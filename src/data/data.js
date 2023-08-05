@@ -1,6 +1,9 @@
-import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe, FaBars } from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
+import { AiOutlineAntDesign } from "react-icons/ai";
+import { RiReactjsFill } from "react-icons/ri";
+import { MdOutlineMobileFriendly } from "react-icons/md";
+import { BsBrowserFirefox } from "react-icons/bs";
+import { CgPerformance } from "react-icons/cg";
+import { HiChatAlt2 } from "react-icons/hi";
 // video list
 import video1 from "../../src/assets/videos/one.mp4";
 import video2 from "../../src/assets/videos/five.mp4";
