@@ -1,15 +1,6 @@
-import { AiOutlineAntDesign } from "react-icons/ai";
-import { RiReactjsFill } from "react-icons/ri";
-import { MdOutlineMobileFriendly } from "react-icons/md";
-import { BsBrowserFirefox } from "react-icons/bs";
-import { CgPerformance } from "react-icons/cg";
-import { HiChatAlt2 } from "react-icons/hi";
-// video list
-import video1 from "../../src/assets/videos/one.mp4";
-import video2 from "../../src/assets/videos/five.mp4";
-import video3 from "../../src/assets/videos/two.mp4";
-import video4 from "../../src/assets/videos/three.mp4";
-import video5 from "../../src/assets/videos/four.mp4";
+import { AiFillAppstore } from "react-icons/ai";
+import { FaMobile, FaGlobe, FaBars } from "react-icons/fa";
+import { SiProgress, SiAntdesign } from "react-icons/si";
 import {
   keyboarda,
   epoxy,
@@ -30,49 +21,45 @@ import {
   clipboard,
   dentist,
   portfolio,
-  user,
-  thumbnailOne,
-  thumbnailTwo,
-  thumbnailThree,
-  thumbnailFour,
-  thumbnailFive
+  testimonialOne,
+  testimonialTwo,
 } from "../assets";
 
 // NavLink Data
 export const navLinksData = [
-    {
-      id: 1,
-      title: "Home",
-      path: "home",
-    },
-    {
-      id: 2,
-      title: "Features",
-      path: "features",
-    },
-    {
-      id: 3,
-      title: "Projects",
-      path: "projects",
-    },
-    {
-      id: 4,
-      title: "Resume",
-      path: "resume",
-    },
-    {
-      id: 5,
-      title: "Testimonial",
-      path: "testimonial",
-    },
-    {
-      id: 6,
-      title: "Contact",
-      path: "contact",
-    },
-  ];
-  
-  // Features Data
+  {
+    id: 1,
+    title: "Home",
+    path: "home",
+  },
+  {
+    id: 2,
+    title: "Features",
+    path: "features",
+  },
+  {
+    id: 3,
+    title: "Projects",
+    path: "projects",
+  },
+  {
+    id: 4,
+    title: "Resume",
+    path: "resume",
+  },
+  {
+    id: 5,
+    title: "Testimonial",
+    path: "testimonial",
+  },
+  {
+    id: 6,
+    title: "Contact",
+    path: "contact",
+  },
+];
+
+// Features Data
 export const featuresData = [
   {
     id: 1,
@@ -231,172 +218,52 @@ export const projectsData = [
 ];
 
 // Education data
-export const jobExperienceData = [
+export const educationData = [
   {
     id: 1,
-    title: "Front-end Developer ",
-    subTitle: "Keyboarda group (2021 - Present)",
-    location: "Tehran",
-    desc: [
-      "Performing front-end projects",
-      "Developing websites and web pages",
-      "Training and supervising interns' work",
-    ],
+    title: "BSc in Computer Science",
+    subTitle: "University of DVI (2006 - 2010)",
+    result: "3.90/4",
+    desc: "Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education.",
   },
   {
     id: 2,
-    title: "Front-end Developer ",
-    subTitle: "Sitechin Company (2019 - 2021)",
-    location: "Tehran",
-    desc: [
-      "Building an advanced website builder that can create",
-      "Personal, corporate, or e-commerce websites for people in various job fields quickly",
-      "Performing front-end projects with modern technologies",
-      "Collaboration with UX/UI Team",
-    ],
+    title: "AS - Science & Information",
+    subTitle: "SuperKing College (2001 - 2005)",
+    result: "4.75/5",
+    desc: "Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education.",
   },
   {
     id: 3,
-    title: "Teacher and Freelancer",
-    subTitle: "Hedayat Elementary School (2018 - 2019)",
-    location: "Tehran",
-    desc: [
-      "Work as a freelancer (Front-end Developer)",
-      "Part-time web programming teacher at an elementary school",
-    ],
+    title: "Secondary School Education",
+    subTitle: "Kingstar Secondary School (1998 - 2000)",
+    result: "5.00/5",
+    desc: "Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education.",
   },
 ];
 
 // Experience Data
-export const educationData = [
+export const experienceData = [
   {
     id: 1,
-    title: "Bachelor of Biotechnology",
-    subTitle: "Islamic Azad University (2012 - 2016)",
-    location: "Tehran",
-    desc: [
-      "I have obtained a bachelor's degree in Biotechnology from the Islamic Azad University.",
-    ],
-  },
-];
-
-// trainer Experience Data
-export const trainerExperienceData = [
-  {
-    id: 1,
-    title: "Teacher",
-    subTitle: "Hedayat Elementary School (2018 - 2019)",
-    location: "Tehran",
-    desc: ["Part-time web programming teacher at an elementary school"],
-  },
-];
-// Certificate Data
-export const courseraData = [
-  {
-    id: 1,
-    title: "HTML, CSS, and Javascript for Web Developers",
-    subTitle: "Coursera (Oct 2021)",
-    location: "Johns Hopkins University",
-    link: "https://www.coursera.org/account/accomplishments/certificate/6UXHKE37J65Q",
-    desc: [
-      "HTML, CSS, and responsive web design mastery.",
-      "Proficient in Javascript for dynamic web development.",
-      "Integrated Ajax for enhanced functionality and user experience.",
-    ],
+    title: "Sr. Software Engineer",
+    subTitle: "Google Out Tech - (2017 - Present)",
+    result: "USA",
+    desc: "Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education.",
   },
   {
     id: 2,
-    title: "Interactivity with JavaScript",
-    subTitle: "Coursera (Dec 2021)",
-    location: "University of Michigan",
-    link: "https://www.coursera.org/account/accomplishments/certificate/E48TPK2AAVPE",
-    desc: [
-      "JavaScript basics for website interactivity.",
-      "Working with variables, functions, and the DOM.",
-      "Reacting to events and modifying webpage content.",
-      "Creating an interactive HTML5 form.",
-    ],
+    title: "Web Developer & Trainer",
+    subTitle: "Apple Developer Team - (2012 - 2016)",
+    result: "MALAYSIA",
+    desc: "Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education.",
   },
   {
     id: 3,
-    title: "Learn to Program",
-    subTitle: "Coursera (Nov 2022)",
-    location: "University of Toronto",
-    link: "https://www.coursera.org/account/accomplishments/certificate/F4CRTREBZYWP",
-    desc: [
-      "Introduction to programming and its importance.",
-      "Gain the ability to write practical programs that have real-world applications.",
-      "Fun and practical program development.",
-    ],
-  },
-  {
-    id: 4,
-    title: "Advanced Styling with Responsive Design",
-    subTitle: "Coursera (Apr 2022)",
-    location: "University of Michigan",
-    link: "https://www.coursera.org/account/accomplishments/certificate/6J9JJGVM8ZKC",
-    desc: [
-      "The importance of responsive design for websites.",
-      "Creating sites that perform well across different platforms.",
-      "Mobile-first paradigm and wireframes in the design process.",
-      "Implementing fluid design and media queries",
-      "Utilizing design frameworks like Bootstrap",
-    ],
-  },
-];
-
-export const companiesData = [
-  {
-    id: 1,
-    title: "Advanced React",
-    subTitle: "Coursera (Mar 2023)",
-    location: "Meta",
-    link: "https://www.coursera.org/account/accomplishments/certificate/VYQWEMAGJYNH",
-    desc: [
-      "Efficient rendering and state management in React.",
-      "Fetching data from remote servers.",
-      "Testing React components.",
-      "Building a portfolio with React.",
-    ],
-  },
-  {
-    id: 2,
-    title: "Programming with JavaScript",
-    subTitle: "Coursera (Mar 2023)",
-    location: "Meta",
-    link: "https://www.coursera.org/account/accomplishments/certificate/C5D2P69U2TTG",
-    desc: [
-      "Basics of web development with JavaScript.",
-      "Working with functions, objects, arrays, and variables.",
-      "Manipulating the HTML DOM using JavaScript.",
-      "Exploring interactive possibilities with JavaScript.",
-    ],
-  },
-  {
-    id: 3,
-    title: "HTML and CSS in depth",
-    subTitle: "Coursera (Nov 2022)",
-    location: "Meta",
-    link: "https://www.coursera.org/account/accomplishments/certificate/M3YQ745YMCRV",
-    desc: [
-      "Building web pages with HTML and structured data.",
-      "Customizing styling with CSS.",
-      "Creating responsive layouts using Bootstrap.",
-      "Debugging and resolving front-end errors.",
-    ],
-  },
-  {
-    id: 4,
-    title: "Version Control",
-    subTitle: "Coursera (Jun 2023)",
-    location: "Meta",
-    link: "https://www.coursera.org/account/accomplishments/certificate/M3YQ745YMCRV",
-    desc: [
-      "Collaborate globally using version control.",
-      "Optimize software development workflow.",
-      "Automate tasks for productivity.",
-      "Utilize Git for team file management and code revisions.",
-    ],
+    title: "Front-end Developer",
+    subTitle: "Kingstar Secondary School (1998 - 2000)",
+    result: "Oman",
+    desc: "Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education.",
   },
 ];
 
@@ -521,39 +388,5 @@ export const FooterLinksData = [
     id: 3,
     title: "DEVELOPERS",
     links: ["Documentation", "Authentication", "API Reference", "Support", " Open Source"],
-  },
-];
-
-// videoList
-export const videoListData = [
-  {
-    title: "Teaching web programming (CSS Animation 1)",
-    subTitle: "Hedayat Elementary School (2018 - 2019)",
-    url: video1,
-    thumbnail: thumbnailOne,
-  },
-  {
-    title: "JavaScript (Function Expressions)",
-    subTitle: "My Private Programming Class (2023)",
-    url: video2,
-    thumbnail: thumbnailFive,
-  },
-  {
-    title: "Teaching web programming (CSS Animation2)",
-    subTitle: "Hedayat Elementary School (2018 - 2019)",
-    url: video3,
-    thumbnail: thumbnailTwo,
-  },
-  {
-    title: "Teaching web programming (CSS Animation 3)",
-    subTitle: "Hedayat Elementary School (2018 - 2019)",
-    url: video4,
-    thumbnail: thumbnailThree,
-  },
-  {
-    title: "Front-end web development (HTML Headings)",
-    subTitle: "Hedayat Elementary School (2018 - 2019)",
-    url: video5,
-    thumbnail: thumbnailFour,
   },
 ];
