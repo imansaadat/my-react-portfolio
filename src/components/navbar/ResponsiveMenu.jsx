@@ -3,8 +3,8 @@ import React from 'react'
 import { FaTimes } from "react-icons/fa";
 // Components
 import Navlinks from './Navlinks';
-// import Media from '../intro/Media';
-import Logo from './Logo';
+import Media from '../media/Media';
+import Logo from '../logo/Logo';
 const ResponsiveMenu = ({nav,handleNav,navLinksData}) => {
   return (
     <div
@@ -32,7 +32,7 @@ const ResponsiveMenu = ({nav,handleNav,navLinksData}) => {
       ))}
     </ul>
     {/* Media */}
-    {/* <Media /> */}
+    <Media/>
   </div>
   )
 }
