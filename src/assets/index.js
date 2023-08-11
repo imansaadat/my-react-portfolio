@@ -20,9 +20,10 @@ import clipboard from "./images/projects/clipboard.jpg";
 import dentist from "./images/projects/dentist.png";
 import portfolio from "./images/projects/portfolio.png";
 // Contact
-import contact from "./images/contact/contact.jpg";
+import contactImg from './images/contact/contact.jpg'
 // Testimonial
-import user from "./images/testimonial/user.png";
+import testimonialOne from "./images/testimonial/testimonialOne.png";
+import testimonialTwo from "./images/testimonial/testimonialTwo.png";
 import quote from "./images/testimonial/quote.png";
 export {
   logoImg,
@@ -46,7 +47,8 @@ export {
   weekaway,
   clipboard,
   dentist,
-  user,
-  quote,
-  contact,
+  contactImg,
+  testimonialOne,
+  testimonialTwo,
+  quote
 };

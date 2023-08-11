@@ -1,13 +1,13 @@
 import React from "react";
 import { FaLinkedinIn, FaTelegram } from "react-icons/fa";
-import { contact} from "../../assets";
+import { contactImg } from "../../assets";
 import { CgMail } from "react-icons/cg";
 const Card = () => {
   return (
     <div className="w-full h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-4 lg:p-6 rounded-lg shadow-shadowOne flex flex-col space-y-8 justify-center">
       <img
         className="w-full h-64 object-cover rounded-lg mb-2"
-        src={contact}
+        src={contactImg}
         alt="contactImg"
       />
       <div className="flex flex-col space-y-4">
