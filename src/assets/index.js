@@ -1,5 +1,5 @@
 import logoImg from "./images/navbar/logo.png";
-import Iman from "./images/intro/iman.png";
+import banner from "./images/intro/bannerImg.png";
 import keyboarda from "./images/projects/keyboarda.png";
 import epoxy from "./images/projects/epoxy.jpg";
 import sitechin from "./images/projects/sitechin.jpg";
@@ -27,7 +27,7 @@ import testimonialTwo from "./images/testimonial/testimonialTwo.png";
 import quote from "./images/testimonial/quote.png";
 export {
   logoImg,
-  Iman,
+  banner,
   keyboarda,
   epoxy,
   sitechin,
